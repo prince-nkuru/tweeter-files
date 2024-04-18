@@ -1,0 +1,136 @@
+html {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+  
+.container{
+  display: flex;
+  width: 95%;
+ 
+  margin-right:3% ;
+  margin-left: 2%;
+}
+.center-right {
+  display: flex;
+
+  flex-basis: 90%;
+}
+.left{
+  flex-basis: 10%;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  background-color: bisque;
+  height: 400px;
+}
+.center{
+  position: relative;
+  flex-basis: 55%;
+  color: black;
+  margin-right: 20px;
+  margin-left: 10px;
+  border-right: 1px solid gray;
+  overflow-y: scroll;
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 200;
+  background-color: white;
+  height: 40px;
+  border-bottom: 1px solid rgb(184, 180, 180);
+
+}
+.navigation a {
+  font-size: 17px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navigation a:last-child{
+  color: gray;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 8px solid rgb(180, 177, 177);
+}
+.tweetbox-input {
+  display: flex;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  
+}
+.tweetbox-input input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 20px;
+  padding: 30px;
+}
+.tweet-button {
+  width: 80px;
+  height: 30px;
+  background-color: dodgerblue;
+  color: white;
+  font-weight: 900px;
+  border: none;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.right{
+  flex-basis: 35%;
+  position: sticky;
+  top: 70px;
+ 
+  height: 100%;
+  
+  
+}
+.right p {
+  position: sticky;
+  top: 0px;
+  height: 100%;
+}
+.search {
+  display: flex;
+  align-items: center;
+   position: sticky;
+   top: 0px;
+   width: 320px;
+   outline: none;
+   text-align: center;
+   border-radius: 15px;
+   height: 30px;
+   border: 1px solid gray;
+   background-color:#F3F4F6;
+   padding-left: 50px;
+   font-size: 16px;
+   height: 40px;
+
+}
+.search-button {
+  width:95% ;
+  outline:none ;
+  background-color: #F3F4F6;
+  border: none;
+  font-size: 16px;
+
+
+}
+.main-content p {
+color: black;
+
+}
